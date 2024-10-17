@@ -1,0 +1,29 @@
+.container {
+  max-width: 800px; /* Limit the width of the container */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add padding to the container */
+  background-color: #f8f9fa; /* Light background color for the entire container */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.table {
+  margin-top: 20px; /* Space above the table */
+}
+
+.btn-primary,
+.btn-warning,
+.btn-danger {
+  transition: background-color 0.3s ease; /* Smooth transition for button hover */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
